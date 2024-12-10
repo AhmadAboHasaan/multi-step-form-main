@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eef5ff;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.componant {
+    width: 45em;
+    height: 32.5em;
+    padding: 1.25%;
+    background: #ffffff;
+    border-radius: 15px;
+    display: flex;
+}
+
+.traker {
+    background-image: url(assets/images/bg-sidebar-desktop.svg);
+    background-size: cover;
+    width: 14.85em;
+    height: 30.8em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+    list-style: none;
+}
+
+ul li {
+    width: 10em;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ul li .number {
+    margin-right: 12.5%;
+    color: white;
+    border: solid #bee1fd 1px;
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    padding: 2.5px;
+}
+
+ul li .number.avtive {
+    background-color: #bee1fd;
+    color: black;
+    cursor: pointer;
+}
+
+ul li span p:first-child {
+    font-size: 0.75em;
+    color: #9b9bff;
+}
+
+ul li span p:last-child {
+    font-size: small;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+
+.componant .info {
+    width: 27.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em 4em 0;
+}
+
+.componant .info h1 {
+    font-family: sans-serif;
+    font-size: 2em;
+    margin-bottom: 0.25em;
+    color: #00194f;
+}
+
+.componant .info .disc {
+    color: #a5a6ab;
+    font-size: 0.92em;
+    margin-bottom: 1em;
+}
+
+.componant .info .labal {
+    color: #00194f;
+    font-size: 0.92em;
+    font-family: system-ui;
+}
