@@ -85,6 +85,7 @@ ul li span p:last-child {
     flex-direction: column;
     align-items: flex-start;
     padding: 2em 4em 0;
+    gap: 0.5em;
 }
 
 .componant .info h1 {
@@ -100,6 +101,12 @@ ul li span p:last-child {
     margin-bottom: 1em;
 }
 
+.componant .info .inputs-contaner{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 .componant .info label {
     color: #00194f;
     font-size: 0.92em;
@@ -111,4 +118,18 @@ ul li span p:last-child {
     color: #00194f;
     font-size: 0.92em;
     font-family: system-ui;
+    margin-top: 10px;
+    width: 25em;
+    height: 3em;
+    padding: 10px;
+}
+
+    .componant .info .input-fild {
+    height: 5em;
+}
+
+#btn{
+    align-self: flex-end;
+    background-color: #04285a;
+    color: #f5ffff;
 }
